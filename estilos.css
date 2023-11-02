@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Fira Mono', monospace; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:425px) {
+
+/*header*/
+header{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white ;
+    height: 20%;
+    padding-top: 10px;
+
+}
+header img{
+    width:50vw;
+    border-radius: 100%;
+    opacity: 0.9;
+}
+header p{
+    font-size: 1.5em;
+}
+/*nav*/
+nav{
+    height:15%;
+background-color: orangered;
+}
+nav ul{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin: 2px;
+    border-right: 2px solid rgba(0, 0, 0, 0.466);
+    padding: 5px;
+}
+
+nav li a{
+    font-family:'Fira Mono', monospace;
+    color:white;
+    text-decoration:none;
+    font-size: 1.1em;   
+}
+/*main*/
+main{
+    background-color: rgba(0, 0, 0, 0.801);
+    height:350px;
+    color: white;
+    padding: 10px;
+
+}
+/*footer*/
+footer{
+    width: 95%vw;
+    height: 15%;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white ;
+    margin-bottom:3px;
+    padding: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+}
